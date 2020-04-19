@@ -33,17 +33,37 @@
 
     <body>
         <!-- TODO: PULL FROM DATABASE AND DISPLAY DATA -->
+        <div class="section links" id="aboveTitle">
+            <div class="container">
+                <div class="database">
+                    <p id = "database_contents">DATABASE</p>
+                </div>
+            </div>
+        </div>
+        
         <div class="section links" id="realTitle">
             <div class="container">
             <h5>
                 <br><br>
-                <a class="button button-primary" href="fileupload.html">Upload Data</a>
+                <form method="post">
+                    <input type="submit" class="button button-primary" name="test" id="test" value="LOAD DATA" /><br/>
+                </form>
             </h5>
             </div>
         </div>
-
-        
     </body>
     
-
+    
+    <?php
+    
+    function testfun()
+    {
+       echo "Your test function on button click is working";
+    }
+    
+    if(array_key_exists('test',$_POST)){
+       testfun();
+    }
+    
+    ?>
 </html>

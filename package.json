@@ -1,0 +1,24 @@
+{
+  "name": "Sensortek-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kthomas4031/Sensortek-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kthomas4031/Sensortek-Website/issues"
+  },
+  "homepage": "https://github.com/kthomas4031/Sensortek-Website#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "tedious": "^8.2.0"
+  }
+}

@@ -14,7 +14,7 @@
   #realTitle{
     position: absolute;
     align-content: center;
-    bottom: 1%;
+    bottom: .5%;
     background-color: transparent;
     width: 100%;
   }
@@ -26,6 +26,31 @@
     font-weight: bolder;
     color:white;
   }
+  #aboveTitle{
+    position: absolute;
+    align-self: center;
+    width: 60%;
+    height: 50%;
+    margin-left: 20%;
+    bottom: 22.5%;
+    background-color: white;
+  }
+  #aboveTitle .container{
+    background-color: inherit;
+    width: fit-content;
+  }
+
+  /* Database
+  -------------------------------------------------- */
+  /* .database {
+    position: absolute;
+    align-content: center;
+    width: 60%;
+    height: 50%;
+    margin-top: 20%;
+    background-color: white;
+    
+  } */
   
   /* Sections
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
